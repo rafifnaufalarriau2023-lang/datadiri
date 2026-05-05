@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffi | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Premium Fonts: Syne for Headings, Space Grotesk for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Background Effects -->
+    <div class="bg-noise"></div>
+    <div class="bg-gradient"></div>
+
+    <!-- Navigation (Floating Pill) -->
+    <nav class="navbar">
+        <a href="#hero" class="logo-photo-container">
+            <div class="logo-photo-wrapper">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rafif&backgroundColor=d8ff00" alt="Logo Raffi">
+            </div>
+            <div class="photo-ring"></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="#contactCard" class="nav-contact-btn">Hire Me</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (Split Layout) -->
+    <section id="hero" class="section hero-split">
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="status-badge">
+                    <span class="pulse-dot"></span> Buka Jasa Website
+                </div>
+                <h3 class="hero-greeting"><span id="dynamicGreeting" class="greeting-text">Halo</span> <span class="wave">👋</span></h3>
+                <h1 class="hero-name">Saya <span class="highlight">Rafif Naufal Arriau</span></h1>
+                <h2 class="hero-role">Web Developer</h2>
+                <p class="hero-bio">Saya membangun pengalaman digital yang indah, fungsional, dan modern untuk membantu bisnis Anda tumbuh di era digital.</p>
+                <div class="hero-actions">
+                    <a href="#contactCard" class="magic-btn">
+                        <span>Mulai Proyek</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#portfolio" class="outline-btn">Lihat Karya</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <!-- Elemen Dekorasi Background -->
+                <div class="decor-circle decor-1"></div>
+                <div class="decor-circle decor-2"></div>
+                <div class="decor-blob"></div>
+                <div class="decor-lines decor-line-1"></div>
+                <div class="decor-lines decor-line-2"></div>
+                
+                <!-- Ilustrasi/Foto PNG transparan -->
+                <!-- Anda bisa mengganti link src ini dengan foto PNG asli Anda -->
+                <div class="hero-img-wrapper">
+                    <img src="Rafif_Naufal_Ar-Riau-removebg.png" alt="Rafif - Web Developer" class="hero-img-full">
+                    <div class="hero-skill-badges mobile-only">
+                        <span class="skill-badge skill-html"><i class="fab fa-html5"></i>HTML</span>
+                        <span class="skill-badge skill-css"><i class="fab fa-css3-alt"></i>CSS</span>
+                        <span class="skill-badge skill-js"><i class="fab fa-js"></i>JS</span>
+                        <span class="skill-badge skill-react"><i class="fab fa-react"></i>React</span>
+                        <span class="skill-badge skill-figma"><i class="fab fa-figma"></i>Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION (Futuristic Bento Grid) -->
+    <section id="about" class="section reveal">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <h2>Tentang <span class="highlight">Saya</span></h2>
+                <p>Mengenal lebih dekat latar belakang, pendidikan, dan apa yang saya lakukan.</p>
+            </div>
+            
+            <main class="freestyle-about">
+                <!-- Kiri: Teks & Informasi -->
+                <div class="fs-left">
+                    <div class="fs-bio">
+                        <div class="fs-name-wrap">
+                            <h3 class="fs-name">Rafif Naufal Arriau</h3>
+                            <div class="fs-avatar-inline mobile-only">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rafif&backgroundColor=d8ff00" alt="Avatar Rafif">
+                            </div>
+                            <div class="fs-role-badge">UI/UX & Web Dev</div>
+                        </div>
+                        <p class="fs-desc">
+                            Saya adalah seorang pelajar yang memiliki ketertarikan besar dalam dunia teknologi, khususnya <strong>Pengembangan Website</strong>. 
+                            Saya sangat senang mengeksplorasi desain UI/UX futuristik dan mengubahnya menjadi kode yang hidup dan interaktif.
+                        </p>
+                    </div>
+
+                    <div class="fs-stats-row">
+                        <div class="fs-stat">
+                            <h4>20+</h4>
+                            <span>Proyek Selesai</span>
+                        </div>
+                        <div class="fs-stat">
+                            <h4>3+</h4>
+                            <span>Tahun Ngoding</span>
+                        </div>
+                        <div class="fs-stat">
+                            <div class="radar-mini">
+                                <div class="radar-circle rc-1"></div>
+                                <div class="radar-sweep"></div>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span>Pekanbaru, ID</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kanan: Visual Abstrak & Skills -->
+                <div class="fs-right">
+                    <div class="fs-visual-core desktop-only">
+                        <div class="fs-avatar-glow">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rafif&backgroundColor=d8ff00" alt="Avatar">
+                        </div>
+                        <div class="fs-float-item fs-html"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="fs-float-item fs-css"><i class="fab fa-css3-alt"></i> CSS</div>
+                        <div class="fs-float-item fs-js"><i class="fab fa-js"></i> JS</div>
+                        <div class="fs-float-item fs-react"><i class="fab fa-react"></i> React</div>
+                        <div class="fs-float-item fs-figma"><i class="fab fa-figma"></i> Figma</div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Achievements & Certificates -->
+            <div class="achievements-section">
+                <div class="section-header text-center" style="margin-bottom: 2.5rem;">
+                    <h2 style="font-size: 2.5rem;">Prestasi & <span class="highlight">Sertifikasi</span></h2>
+                </div>
+
+                <!-- Freestyle Scatter Board for Achievements -->
+                <div class="fs-cert-board">
+                    <!-- Cert 1 -->
+                    <div class="fs-cert-item" style="--rotation: -6deg; --x: 5%; --y: 20px; --z: 1;">
+                        <div class="cert-image">
+                            <img src="https://images.unsplash.com/photo-1589330694653-efa647532028?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sertifikat Juara 1">
+                        </div>
+                        <div class="cert-info">
+                            <span class="cert-year">2023</span>
+                            <h4>Juara 1 Web Design Nasional</h4>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="fs-cert-item" style="--rotation: 4deg; --x: 35%; --y: 50px; --z: 2;">
+                        <div class="cert-image">
+                            <img src="https://images.unsplash.com/photo-1523289217630-0dd16184af8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sertifikat React">
+                        </div>
+                        <div class="cert-info">
+                            <span class="cert-year">2023</span>
+                            <h4>Frontend React Certification</h4>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="fs-cert-item" style="--rotation: -3deg; --x: 65%; --y: 10px; --z: 3;">
+                        <div class="cert-image">
+                            <img src="https://images.unsplash.com/photo-1555448248-2571daf6344b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sertifikat UI/UX">
+                        </div>
+                        <div class="cert-info">
+                            <span class="cert-year">2022</span>
+                            <h4>Bootcamp UI/UX Terbaik</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Banner Mandiri -->
+            <div class="bento-item contact-card fs-contact-banner" id="contactCard" style="margin-top: 4rem;">
+                <div class="contact-content">
+                    <h2>Mulai Proyek Baru?</h2>
+                    <p>Mari diskusikan ide website Anda bersama saya.</p>
+                </div>
+                <button class="magic-btn">
+                    <span>Konsultasi Gratis</span>
+                    <i class="fab fa-whatsapp"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="section reveal">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <h2>Karya <span class="highlight">Portofolio</span></h2>
+                <p>12 proyek nyata yang telah saya rancang dan kembangkan untuk berbagai klien.</p>
+            </div>
+
+            <!-- Filter Menu -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="company">Company Profile</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="bento-item portfolio-card" data-category="company">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Website Villa">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Company Profile</span><span>Booking</span></div>
+                        <h3>Bali Paradise Villa</h3>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bento-item portfolio-card" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Top Up">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>E-Commerce</span><span>Gateway</span></div>
+                        <h3>RaffiStore Top Up</h3>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bento-item portfolio-card" data-category="landing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tech SaaS">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Landing Page</span></div>
+                        <h3>TechFlow SaaS</h3>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bento-item portfolio-card" data-category="company">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Corporate">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Company Profile</span></div>
+                        <h3>Zenith Corporate</h3>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="bento-item portfolio-card" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shop">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>E-Commerce</span></div>
+                        <h3>KopiSenja Shop</h3>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="bento-item portfolio-card" data-category="landing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="App Promo">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Landing Page</span></div>
+                        <h3>FitLife App Promo</h3>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="bento-item portfolio-card" data-category="company">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="LawFirm">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Company Profile</span></div>
+                        <h3>LawFirm Associates</h3>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="bento-item portfolio-card" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fashion">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>E-Commerce</span></div>
+                        <h3>SneakerHead Hub</h3>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="bento-item portfolio-card" data-category="landing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Crypto">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Landing Page</span></div>
+                        <h3>CryptoTrade Landing</h3>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="bento-item portfolio-card" data-category="company">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="EduTech">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Company Profile</span></div>
+                        <h3>EduTech Platform</h3>
+                    </div>
+                </div>
+
+                <!-- Project 11 -->
+                <div class="bento-item portfolio-card" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cosmetics">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>E-Commerce</span></div>
+                        <h3>BeautyCosmetics Store</h3>
+                    </div>
+                </div>
+
+                <!-- Project 12 -->
+                <div class="bento-item portfolio-card" data-category="landing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Event">
+                        <div class="overlay"><a href="#" class="view-btn">Lihat Detail <i class="fas fa-arrow-right"></i></a></div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags"><span>Landing Page</span></div>
+                        <h3>EventRegistration Page</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-logo">Raffi<span class="highlight">.</span></div>
+                <p>Siap untuk memulai proyek website Anda?</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Raffi Web Developer. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bottom Navigation (Mobile Only) -->
+    <nav class="bottom-nav">
+        <a href="#hero" class="bottom-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Beranda</span>
+        </a>
+        <a href="#about" class="bottom-nav-item">
+            <i class="fas fa-user"></i>
+            <span>Tentang</span>
+        </a>
+        <a href="#portfolio" class="bottom-nav-item">
+            <i class="fas fa-briefcase"></i>
+            <span>Karya</span>
+        </a>
+        <a href="#contactCard" class="bottom-nav-item">
+            <i class="fas fa-envelope"></i>
+            <span>Kontak</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
